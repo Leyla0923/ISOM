@@ -5,3 +5,8 @@ import numpy as np
 st.title("Welcome to ISOM3400 Evaluator")
 st.text("Objective: Discover whether you will fail the course")
 st.write("Objective: Discover whether you will fail the course")
+
+
+
+#lab:
+st.set_page_config(page_title="Hello")
