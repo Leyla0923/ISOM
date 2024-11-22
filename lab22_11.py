@@ -16,11 +16,6 @@ st.write("""1. Group Exercise
 3. Final Exam""")
 st.markdown('---')
 st.subheader("Requirement Check for the Assignment")
-st.markdown(
-"""
-The following list won't indent no matter what I try:
-- Item 1
-- Item 2
-- Item 3
-"""
-)
+st.markdown("""
+- .py file
+- Video""")
