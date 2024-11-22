@@ -30,12 +30,8 @@ st.write('Enroll in ISOM3400 and secure your place:')
 
 
 
-st.text_input("Enter your name")
-st.text_input("Email Address")
-st.text_area("Hi I am a text box")
-st.checkbox('I plan to complete all')
-
 with st.form(key="feedback_form"):
-    product_id = st.text_input("Enter Product ID")
-    feedback = st.text_area("Enter your feedback")
-    submit_button = st.form_submit_button("Submit Feedback")
+    st.text_input("Enter your name")
+    st.text_input("Email Address")
+    st.text_area("Hi I am a text box")
+    st.checkbox('I plan to complete all')
