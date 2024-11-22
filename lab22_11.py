@@ -26,11 +26,9 @@ st.code("assert expected_title in driver.title")
 st.markdown("---")
 
 st.header("Evaluate Form")
-st.write('Enroll in ISOM3400 and secure your place:')
-
-
 
 with st.form('key'):
+    st.write('Enroll in ISOM3400 and secure your place:')
     st.text_input("Enter your name")
     st.text_input("Email Address")
     st.text_area("Hi I am a text box")
