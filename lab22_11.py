@@ -3,4 +3,5 @@ import pandas as pd
 import numpy as np
 
 st.title("Welcome to ISOM3400 Evaluator")
-st.text("Hi")
+st.text("Objective: Discover whether you will fail the course")
+st.write("Objective: Discover whether you will fail the course")
