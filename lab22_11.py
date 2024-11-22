@@ -11,9 +11,7 @@ st.write("Objective: Discover whether you will fail the course")
 st.markdown('---')
 st.header("Requirement Check for the course")
 st.subheader("Check List")
-st.write("""1. Group Exercise
-2. Assignment
-3. Final Exam""")
+st.markdown("1. Group Exercise\n2. Assignment\n3. Final Exam")
 st.markdown('---')
 st.subheader("Requirement Check for the Assignment")
 st.markdown("""
