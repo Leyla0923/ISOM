@@ -29,10 +29,17 @@ st.header("Evaluate Form")
 
 with st.form('key'):
     st.write('Enroll in ISOM3400 and secure your place:')
-    st.text_input("Enter your name")
-    st.text_input("Email Address")
-    st.text_area("Hi I am a text box")
-    st.checkbox('I plan to complete all three course components')
-    st.checkbox('I think I will just cheat on the exam')
-    st.form_submit_button("Enroll now")
+    name= st.text_input("Enter your name")
+    email= st.text_input("Email Address")
+    text_box= st.text_area("Hi I am a text box")
+    term1= st.checkbox('I plan to complete all three course components')
+    term2= st.checkbox('I think I will just cheat on the exam')
+    submit_button= st.form_submit_button("Enroll now")
+
+
+if submit_button:
+    if term1 and not term2:
+        st.success(f'{name}! A confirmation email has been sent to {email}.')
+    else:
+        st.error('The department will see you again next year.')
 
