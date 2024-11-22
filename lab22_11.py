@@ -19,3 +19,9 @@ st.subheader("Requirement Check for the Assignment")
 st.markdown("""
 - .py file
 - Video""")
+
+
+st.header("Code")
+st.subheader("Code requirement")
+st.code("assert expected_title in driver.title")
+st.markdown("---")
