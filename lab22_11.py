@@ -30,8 +30,11 @@ st.write('Enroll in ISOM3400 and secure your place:')
 
 
 
-with st.form(key="feedback_form"):
+with st.form('key'):
     st.text_input("Enter your name")
     st.text_input("Email Address")
     st.text_area("Hi I am a text box")
-    st.checkbox('I plan to complete all')
+    st.checkbox('I plan to complete all three course components')
+    st.checkbox('I think I will just cheat on the exam')
+    st.form_submit_button("Enroll now")
+
