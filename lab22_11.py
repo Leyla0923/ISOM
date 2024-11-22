@@ -9,4 +9,6 @@ st.title("Welcome to ISOM3400 Evaluator")
 #st.text("Objective: Discover whether you will fail the course")
 st.write("Objective: Discover whether you will fail the course")
 st.markdown('---')
+st.header("Requirment Check for the course")
+st.subheader("Check List")
 
