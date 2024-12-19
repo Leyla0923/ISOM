@@ -28,7 +28,7 @@ st.button("submit")
 
 with st.form(key='form'):
   a =st.text_input("Gmail")
-  b= st.form_submit_buttom("Submit")
+  b= st.form_submit_button("Submit")
   if b:
     if a is None:
         st.error("error")
