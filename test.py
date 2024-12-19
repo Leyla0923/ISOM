@@ -24,40 +24,7 @@ st.dataframe(df)
 st.table(df)
 st.divider()
 
-# Create sample DataFrame
-df = pd.DataFrame({
-    'Name': ['John', 'Alice', 'Bob'],
-    'Age': [25, 30, 35],
-    'City': ['NYC', 'LA', 'Chicago']
-})
+st.button("submit")
 
-# Basic editor
-edited_df = st.data_editor(df)
-
-# Advanced editor with customization
-edited_df = st.data_editor(
-    df,
-    num_rows="dynamic",  # Allows adding/deleting rows
-    column_config={
-        "Name": st.column_config.TextColumn("Full Name"),
-        "Age": st.column_config.NumberColumn(
-            "Age",
-            min_value=0,
-            max_value=120
-        ),
-        "City": st.column_config.SelectboxColumn(
-            "City",
-            options=["NYC", "LA", "Chicago", "Houston"]
-        )
-    },
-    hide_index=True,
-    width=None  # or specific pixel value
-)
-
-# Track changes
-if edited_df.equals(df):
-    st.write("No changes made")
-else:
-    st.write("Data was modified!")
-    st.write("Modified data:", edited_df)
+with form
 
