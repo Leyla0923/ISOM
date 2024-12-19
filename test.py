@@ -25,6 +25,7 @@ df = pd.DataFrame({'a':[12],'b':[14]})
 
 st.dataframe(data=df)
 st.data_editor(df)
+st.line_chart(df)
 st.divider()
 
 # Create sample DataFrame
