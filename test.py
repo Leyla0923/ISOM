@@ -19,7 +19,7 @@ st.divider()
 
 st.caption('text')
 df = pd.DataFrame({'a':[12,1,2,3,4],'b':[14,3,4,5,4]})
-
+st.dataframe(df)
 
 st.table(df)
 st.divider()
