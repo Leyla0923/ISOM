@@ -15,4 +15,4 @@ st.write('hello')
 
 st.divider()
 list=['a','b','c']
-st.selectbox('text',list.unique())
+st.selectbox('text',list)
