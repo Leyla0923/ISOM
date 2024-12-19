@@ -30,7 +30,7 @@ with st.form(key='form'):
   a =st.text_input("Gmail")
   b= st.form_submit_button("Submit")
   if b:
-    if a is None:
+    if not a:
         st.error("error")
     else:
       st.success('success')
