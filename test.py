@@ -14,8 +14,6 @@ st.write('hello')
 
 
 st.divider()
-list=['a','b','c']
-st.selectbox('text',list.unique())
 
 
 st.caption('text')
