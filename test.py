@@ -23,6 +23,7 @@ st.dataframe(df)
 
 st.table(df)
 st.divider()
+st.markdown('---')
 
 st.button("submit")
 
