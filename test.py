@@ -26,5 +26,12 @@ st.divider()
 
 st.button("submit")
 
-with form
+with st.form(key='form')
+  a =st.text_input("Gmail")
+  b= st.form_submit_buttom("Submit")
+  if b:
+    if a is None:
+        st.error("error")
+    else:
+      st.success('success')
 
