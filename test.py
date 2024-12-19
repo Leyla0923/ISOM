@@ -18,6 +18,6 @@ st.divider()
 
 
 st.caption('text')
-df = pd.Dataframe({'a':12,'b':14})
+df = pd.Dataframe({'a':[12],'b':[14]})
 
 st.dataframe(data=df, width=None, height=None)
