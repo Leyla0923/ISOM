@@ -23,4 +23,4 @@ df = pd.DataFrame({'a':[12],'b':[14]})
 
 
 
-st.dataframe(data=df, width=None, height=None)
+st.dataframe(data=df)
