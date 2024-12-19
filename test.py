@@ -10,7 +10,7 @@ st.subheader('hello')
 st.write('### hello')
 st.divider()
 st.text('hello')
-st.wrties('hello')
+st.write('hello')
 
 
 st.divider()
