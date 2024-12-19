@@ -26,6 +26,8 @@ st.divider()
 
 st.button("submit")
 
+st.markdown('textttttt')
+st.divider()
 with st.form(key='form'):
   a =st.text_input("Gmail")
   b= st.form_submit_button("Submit")
